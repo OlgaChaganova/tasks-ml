@@ -1,0 +1,26 @@
+[flake8]
+
+max-line-length = 120
+
+exclude =
+    .git,
+    __pycache__,
+    docs,
+    img,
+    notebooks,
+    reports,
+    .venv,
+    venv,
+    .ipynb,
+    .md,
+    .txt,
+    .tox,
+    *.egg,
+    *.egg-info
+
+max-line-complexity = 15
+max-cognitive-score = 16
+max-local-variables = 15
+max-arguments = 10
+
+inline-quotes = '

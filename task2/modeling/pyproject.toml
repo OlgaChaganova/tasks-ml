@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "test-tasks-ml"
+version = "0.1.0"
+description = "test tasks ML"
+authors = ["Olga Chaganova <olga.chaganova1@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+jupyter = "^1.0.0"
+pytorch-lightning = "^2.0.1"
+soundfile = "^0.12.1"
+matplotlib = "^3.7.1"
+llvmlite = "0.39.1"
+librosa = "^0.10.0.post2"
+torchaudio = "^2.0.1"
+albumentations = "^1.3.0"
+wandb = "^0.14.2"
+torchvision = "^0.15.1"
+onnxruntime = "^1.14.1"
+onnx = "^1.13.1"
+tqdm = "^4.65.0"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.0.0"
+pytest = "^7.3.0"
+flake8-quotes = "^3.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
